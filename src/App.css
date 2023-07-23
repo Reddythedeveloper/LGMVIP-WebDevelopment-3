@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f28482;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.enrollment-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.enrollment-form {
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #dad7cd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.enrolled-students-table {
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #dad7cd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin: 0;
+  background-color: #84a59d;
+  font-size: 50px;
+}

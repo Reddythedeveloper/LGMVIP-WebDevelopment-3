@@ -1,0 +1,56 @@
+/* EnrolledStudentsTable.css */
+
+.enrolled-students-table {
+    height: auto;
+  }
+  
+  .enrolled-students-table h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  
+  tbody tr:hover {
+    background-color: #eaf0f5;
+  }
+  
+  td strong {
+    display: block;
+    color: #007bff;
+  }
+  
+  td a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  td a:hover {
+    text-decoration: underline;
+  }
+  
+  td img {
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin: 0 auto;
+  }
+  
